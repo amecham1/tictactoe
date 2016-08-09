@@ -109,7 +109,7 @@ ul button{
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  background-color: white;
+  /*background-color: white;*/
 }
 .X-pick{
   text-align: center;
@@ -122,4 +122,39 @@ ul button{
   font-size: 150px;
   display: none;
 
+}
+
+/*Winner Box*/
+
+.winner{
+  width: 50%;
+  height: 40vh;
+  top: 230px;
+  left: 300px;
+  position: absolute;
+  z-index: 10;
+  background-color: white;
+  display: none;
+}
+
+.winner h2 {
+  padding-top: 30px;
+  font-size: 50px;
+  text-align: center;
+}
+.quit{
+  position: absolute;
+  right: 100px;
+  top: 125px;
+}
+.play-again{
+  position: absolute;
+  left: 70px;
+  top: 125px;
+}
+.game-button{
+  font-size: 30px;
+}
+.game-button:hover{
+  background-color: darkgray;
 }
