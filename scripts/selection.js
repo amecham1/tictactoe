@@ -2,17 +2,26 @@ $(document).ready(function(){
 
 // Allows the user to select either an X or O per box
 
-  $("#O1").click(function(){
-      $("#O-pick1").show(function(){
-        $("#X-pick1").hide();
-      });
-  })
 
-  $("#X1").click(function(){
-      $("#X-pick1").show(function(){
-        $("#O-pick1").hide();
-      });
-  })
+
+
+
+
+
+
+
+
+  // $("#O1").click(function(){
+  //     $("#O-pick1").show(function(){
+  //       $("#X-pick1").hide();
+  //     });
+  // })
+  //
+  // $("#X1").click(function(){
+  //     $("#X-pick1").show(function(){
+  //       $("#O-pick1").hide();
+  //     });
+  // })
   $("#O2").click(function(){
       $("#O-pick2").show(function(){
         $("#X-pick2").hide();
