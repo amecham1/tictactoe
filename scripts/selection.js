@@ -22,5 +22,4 @@ var xPick = '<h1 class="X-pick"id="X-pick1">X</h1>';
 
 
 
-  
 })
