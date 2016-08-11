@@ -22,7 +22,7 @@ var O9 = $("#O-pick1").text();
 var X = $("#pick1").hasClass();
 
 
-console.log(X);
+// console.log(X);
 
 
   //

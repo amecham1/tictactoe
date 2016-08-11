@@ -1,17 +1,15 @@
 $(document).ready(function() {
 
-  // Closes Menu after selction has been made
+    // Closes Menu after selction has been made
 
-    $("ul button").click(function() {
-        $(".menu-choice").slideUp("fast");
+    $('.O-select,.X-select').click(function() {
+        $(".menu-choice").slideUp("slow");
     });
 
-  // Resets the board but keeps the score
-  
-    $("#reset-board").click(function(){
-        $(".X-pick,.O-pick").hide();
+    // Resets the board but keeps the score
 
-
+    $("#reset-board").click(function() {
+        $(".X-pick,.O-pick").empty();
     });
 
 

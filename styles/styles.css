@@ -95,9 +95,10 @@ body {
 .menu-choice h6{
   font-size: 20px;
 }
-ul button{
+.menu-choice button{
   font-size: 30px;
   background-color: white;
+  margin-left: 10px;
 
 }
 .menu:hover {
@@ -114,13 +115,13 @@ ul button{
 .X-pick{
   text-align: center;
   font-size: 150px;
-  display: none;
+  /*display: none;*/
 
 }
 .O-pick{
   text-align: center;
   font-size: 150px;
-  display: none;
+  /*display: none;*/
 
 }
 

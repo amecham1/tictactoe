@@ -3,7 +3,8 @@ $(document).ready(function(){
   // Controls each menu per box
 
 $(".menu").click(function(){
-    $('.menu-choice').slideToggle('slow');
+    $(this).siblings('.menu-choice').slideToggle("slow");
+
 })
 
 
