@@ -1,5 +1,8 @@
 /*Heading*/
 
+button:focus {
+  outline:0;
+}
 
 .back-ground{
   background-color: #242523;
